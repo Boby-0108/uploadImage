@@ -1,0 +1,53 @@
+
+
+.container {
+    margin-top: 25px;
+    margin-right: 250px;
+    margin-left: 250px;
+    background-color: rgb(150, 110, 170);
+    border: #007bff solid 2px;padding: 20px;
+}
+.browser-container {
+    padding-left: 50px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+.browser-container img {
+    max-width: 100px;
+    height: auto;
+    margin-right: 40px;
+    padding-top: 3px;
+}
+.remove-button {
+    background-color: rgb(237, 46, 25);
+    color: white;
+    border: 1px solid white;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-left: 60px;
+    border-radius: 4px; 
+}
+select {
+    background-color: rgb(19, 120, 10);
+    color: white;
+    border: 1px solid white;
+    padding: 5px 10px;
+    border-radius: 4px; 
+}
+button {
+    
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px; 
+}
+button:hover {
+    background-color: #0056b3; 
+}
+
+

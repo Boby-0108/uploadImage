@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Browser and Dropdown with Images</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div id="browsers">
+            
+            <div class="browser-container" id="browser">
+                <input type="file" class="image-upload" />
+                <img src="chrome.jpeg"  class="browser-image">
+                <select id="browser" >
+                    <option value="primary" selected>Primary</option>
+                    <option value="secondary">Secondary</option>
+                </select>
+                <span class="remove-button">Remove</span>
+            </div>
+        </div>
+      
+        <button id="add-another">Add Another</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
